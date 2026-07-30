@@ -1,0 +1,6 @@
+{
+  "name": "MERN Auth App",
+  "description": "MERN stack authentication application featuring short-lived access tokens, long-lived refresh tokens with HTTP-only cookie rotation, and protected dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

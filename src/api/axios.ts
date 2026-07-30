@@ -5,7 +5,7 @@ import axios from 'axios';
  * credentials: true ensures HTTP-only cookies (like refresh tokens) are sent automatically.
  */
 const api = axios.create({
-  baseURL: '',
+  baseURL: import.meta.env.VITE_API_BASE_URL || '',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
